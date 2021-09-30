@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+    /*
+      Un estudiante desea conocer su promedio de cuatro parciales y conocer si aprueba o reprueba el semestre
+      muestre como salida el promedio de los parciales utilizando temple script
+    */
+   alert("Ingrese las notas del alumno")
+   var nota1=parseInt(prompt("Ingrese primera nota del alumno"))
+   var nota2=parseInt(prompt("Ingrese segunda nota del alumno"))
+   var nota3=parseInt(prompt("Ingrese tercera nota del alumno"))
+   var nota4=parseInt(prompt("Ingrese cuarta nota del alumno"))
+   var totalnota=nota1+nota2+nota3+nota4
+   var promedio= totalnota/4
+   alert("El promedio del alumno es:" +promedio)
+   if(promedio >=70){
+     alert(`El alumno esta aprobado`)
+   }else{
+     alert(`El alumno esta reprobado`)
+   }
+</script>
+<body>
+    
+</body>
+</html>

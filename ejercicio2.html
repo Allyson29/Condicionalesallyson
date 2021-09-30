@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Condicionales 2</title>
+</head>
+<script>
+    var descuento
+    var totpagar
+    var compra = parseInt(prompt("Ingrese el valor de la compra"))
+    if(compra>2000){
+        descuento = compra * 0.3
+        totpagar = compra - descuento
+    }else{
+        descuento = compra * 0.5
+        totpagar = compra - descuento
+    }
+    alert(`El descuento es: ${descuento}`)
+    alert(`El total a pagar es: ${totpagar}`)
+</script>
+<body>
+    
+</body>
+</html>
